@@ -1,0 +1,31 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+
+node_js:
+  - '12'
+
+git:
+  depth: 3
+
+script:
+  - yarn test
+
+notifications:
+  email:
+    recipients:
+      - ljperezt@gmail.com
+      - mirage232@gmail.com
+    on_success: always
+    on_failure: always
+
+deploy:
+  provider: heroku
+  skip_cleanup: true
+  keep_history: true
+  api_key: c6a8cc3e-fe0a-4aab-9f13-680f236b7d02
+  app: ljperezt-pz-str-be
+  on:
+    repo: ludwingperezt/platzi-store-backend
