@@ -25,7 +25,8 @@ deploy:
   provider: heroku
   skip_cleanup: true
   keep_history: true
-  api_key: c6a8cc3e-fe0a-4aab-9f13-680f236b7d02
+  api_key: 
+    secure: "zUSqxgO2j3+EBZ2X8k5xCkFNRVVdJ/bTKl1pOzfLPXslUerYa64LuUb+n1JwGUnFB0U9S5y4pR8zcuYcUwG7SYM4aueQ68fSqkcQPJ5e3gVeGGq9pYGDPwzrPvlU+AwIPaqJiUDk+CFLCJW+WRie57k9ujy3pg62vRhhPz2oG68OSOqEDNjWueefdE/SVvoAO8d0i1ac5KWP/Zq94u8pS0sZYTCbGzWvUyoNTIpj5xQgSBuUm3HPPWEbliswA97GQtkCDGKBKIciG+sKEy91Mp01nTKVYOCodK8EgjdbL2XIle6sRksDnl2LeCyOXW7yVkplN4qSy8IEYbP2ghYJzH0QmcJVB0WgASxu8ImfPDCiLNm6ltySmqB0TSLnCKjcEHhSjP8iFM2skJpvmLe6uPcku9x5kD19uqVZ1HOx7fKnd+2IF8H/diRHyDthAanfRW7NYXxOPydWwNUisFCuDKYVt/bcYI9mFuoU5ix6DTgFcPhKPOq5cpdVd+FeZptR1cGvwLF3pthpB5zUVlMjvO6rwvhzWWu76XHZlxGVJ81LL6GWKoetJu77/+7BrP1c1X2/IgMNOLpGrcNwxV2DxYtKeMBJ8jOlOFf704vGxPtjd/nB257L93qjV+NxhkE2mW95jvs7BzF2Oc1/XP1wtGWEkw2kZX1mJ80ioPpI4U0="
   app: ljperezt-pz-str-be
   on:
     repo: ludwingperezt/platzi-store-backend
